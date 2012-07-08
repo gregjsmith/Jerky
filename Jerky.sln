@@ -14,6 +14,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{E5F98A3E
 		Build\Jerky.Build = Build\Jerky.Build
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{A9829EA5-5B0B-4D98-B37B-D886A2F8C1C1}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Lib\MSBuild.Community.Tasks.dll = Build\Lib\MSBuild.Community.Tasks.dll
+		Build\Lib\MSBuild.Community.Tasks.Targets = Build\Lib\MSBuild.Community.Tasks.Targets
+		Build\Lib\MSBuild.Community.Tasks.xml = Build\Lib\MSBuild.Community.Tasks.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,5 +58,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{513BBFAA-DC44-458D-9CDF-2C8750916724} = {13D898D6-8C71-4EC9-86C1-EEB3F4139397}
 		{17CBB188-BB88-4E43-9225-E7EFCD56EF96} = {561E2DE0-1FAA-471C-890B-82F8D00120F8}
+		{A9829EA5-5B0B-4D98-B37B-D886A2F8C1C1} = {E5F98A3E-79DD-441C-91AD-3C256B6AD4A4}
 	EndGlobalSection
 EndGlobal
