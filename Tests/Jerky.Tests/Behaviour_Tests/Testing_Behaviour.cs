@@ -6,10 +6,9 @@ namespace Jerky.Tests.Behaviour_Tests
 {
     public class Testing_Behaviour
     {
-        private Stack<string> _stack;
-
+        
         [Test]
-        public void With_A_Stack()
+        public void Passing_parameters_to_AndGiven()
         {
             new Behaviour()
                 .Given(A, new Stack<string>())
@@ -39,6 +38,9 @@ namespace Jerky.Tests.Behaviour_Tests
         {
             Assert.AreEqual(_stack.Count, 2);
         }
+
+
+        private Stack<string> _stack;
 
     }
 }

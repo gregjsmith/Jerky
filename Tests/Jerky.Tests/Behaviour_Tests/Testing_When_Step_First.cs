@@ -22,6 +22,33 @@ namespace Jerky.Tests.Behaviour_Tests
                 .Then(The_SomeInt_property_should_be, 1);
         }
 
+
+        [Test]
+        public void IsSuppliedTo_Can_follow_an_initial_when_Step()
+        {
+            new Behaviour()
+                .When(The_String, "Arbitrary")
+                .IsSuppliedTo(A, new StringCuddler().Cuddle(_string))
+                .Then(The_string_will_be, "##Arbitrary##");
+        }
+
+
+        private void The_String(string obj)
+        {
+            _string = obj;
+        }
+
+        private void A(object obj)
+        {
+            _string = obj as string;
+        }
+
+        private void The_string_will_be(string obj)
+        {
+            Assert.AreEqual(obj, _string);
+        }
+
+
         private void Creating_a(TestType obj)
         {
             _testType = obj;
@@ -43,6 +70,7 @@ namespace Jerky.Tests.Behaviour_Tests
         }
 
         private ITestType _testType;
+        private string _string;
     }
 }
 // ReSharper restore InconsistentNaming

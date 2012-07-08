@@ -39,10 +39,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestObjects\StringCuddler.cs" />
     <Compile Include="Behaviour_Tests\Testing_AndThen.cs" />
     <Compile Include="Behaviour_Tests\Testing_AreSuppliedTo.cs" />
     <Compile Include="Behaviour_Tests\Testing_Behaviour.cs" />
-    <Compile Include="Behaviour_Tests\Using_when_First.cs" />
+    <Compile Include="Behaviour_Tests\Testing_When_Step_First.cs" />
     <Compile Include="ExceptionBehaviour_Tests\Testing_Exception_Wrapping.cs" />
     <Compile Include="ExceptionBehaviour_Tests\Testing_Exception_Capture.cs" />
     <Compile Include="Behaviour_Tests\Testing_Interactions.cs" />

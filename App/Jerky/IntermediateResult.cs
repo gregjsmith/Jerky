@@ -87,5 +87,11 @@ namespace Jerky
 
             return new Result();
         }
+
+        public IntermediateResult IsSuppliedTo<T>(Action<T> action, T arg1)
+        {
+            action.Invoke(arg1);
+            return new IntermediateResult();
+        }
     }
 }
