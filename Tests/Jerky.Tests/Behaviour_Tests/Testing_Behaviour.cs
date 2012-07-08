@@ -17,6 +17,29 @@ namespace Jerky.Tests.Behaviour_Tests
                 .Then(There_will_be_two_strings_left);
         }
 
+        [Test]
+        public void Passing_Parameters_to_When()
+        {
+            new Behaviour()
+                .Given(A, new Stack<string>())
+                .When(Adding_The_Values, new[] {"One", "Two", "Three"})
+                .Then(The_Stack_count_will_be, 3);
+        }
+
+        private void Adding_The_Values(string[] obj)
+        {
+            foreach (var s in obj)
+            {
+                _stack.Push(s);
+            }
+        }
+
+        private void The_Stack_count_will_be(int obj)
+        {
+            Assert.AreEqual(obj, _stack.Count);
+        }
+
+
         private void We_pass_in(string arg1, string arg2, string arg3)
         {
             _stack.Push(arg1);
