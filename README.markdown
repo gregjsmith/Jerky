@@ -2,6 +2,8 @@
 
 Small and lightweight C# testing DSL. Allows the description of behaviours. 
 
+The project is still at an early stage of development and, as such, is not currently at a stable version.
+
 ##Dependencies##
 
 NUnit - 2.6.x
