@@ -17,7 +17,7 @@ namespace Jerky.Tests.ExceptionBehaviour_Tests
         }
 
         [Test]
-        public void Using_AreSuppliedTo_and_Capturing_Exception_Message()
+        public void Using_AreSuppliedTo_Step_and_Capturing_Exception_Message()
         {
             new ExceptionBehaviour()
                 .Given(A_string_of, "Come The Day")
@@ -60,9 +60,6 @@ namespace Jerky.Tests.ExceptionBehaviour_Tests
 
             _account.Withdraw(_withdrawl);
         }
-
-
-
 
         private void A_null_string()
         {

@@ -22,8 +22,6 @@ namespace Jerky.Tests.Behaviour_Tests
                 .Then(The_SomeInt_property_should_be, 1);
         }
 
-
-
         private void Creating_a(TestType obj)
         {
             _testType = obj;

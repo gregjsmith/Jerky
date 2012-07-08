@@ -26,13 +26,10 @@ namespace Jerky.Tests.ExceptionBehaviour_Tests
                 .IsWrappedInExceptionOfType(typeof(InvalidOperationException));
         }
 
-
         private void Some_arbitrary_action_fails()
         {
             new ExceptionThrower();
         }
-
-       
 
         private void Something_happens()
         {
