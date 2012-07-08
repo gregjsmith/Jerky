@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\software\Git\jerky\Tests\Jerky.Tests\bin\Debug\Jerky.Tests.dll" total="13" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-07-08" time="14:14:18">
+<test-results name="C:\software\Git\jerky\Tests\Jerky.Tests\bin\Debug\Jerky.Tests.dll" total="13" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-07-08" time="14:24:00">
   <environment nunit-version="2.6.0.12051" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\software\Git\jerky\Build" machine-name="GREG-HOME" user="Greg" user-domain="Greg-Home" />
   <culture-info current-culture="en-GB" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\software\Git\jerky\Tests\Jerky.Tests\bin\Debug\Jerky.Tests.dll" executed="True" result="Success" success="True" time="0.581" asserts="0">
+  <test-suite type="Assembly" name="C:\software\Git\jerky\Tests\Jerky.Tests\bin\Debug\Jerky.Tests.dll" executed="True" result="Success" success="True" time="0.698" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Jerky" executed="True" result="Success" success="True" time="0.564" asserts="0">
+      <test-suite type="Namespace" name="Jerky" executed="True" result="Success" success="True" time="0.681" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.563" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.680" asserts="0">
             <results>
-              <test-suite type="Namespace" name="Behaviour_Tests" executed="True" result="Success" success="True" time="0.537" asserts="0">
+              <test-suite type="Namespace" name="Behaviour_Tests" executed="True" result="Success" success="True" time="0.655" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="Testing_AndThen" executed="True" result="Success" success="True" time="0.057" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_AndThen" executed="True" result="Success" success="True" time="0.131" asserts="0">
                     <results>
-                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_AndThen.Calling_AndThen_Once_Gives_Expected_Results" executed="True" result="Success" success="True" time="0.045" asserts="2" />
+                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_AndThen.Calling_AndThen_Once_Gives_Expected_Results" executed="True" result="Success" success="True" time="0.118" asserts="2" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="Testing_AreSuppliedTo" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_AreSuppliedTo" executed="True" result="Success" success="True" time="0.006" asserts="0">
                     <results>
                       <test-case name="Jerky.Tests.Behaviour_Tests.Testing_AreSuppliedTo.AreSuppliedTo_Can_Take_two_dependencies_from_the_same_Given_Step" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_AreSuppliedTo.AreSuppliedTo_passes_two_dependencies_to_a_service" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_AreSuppliedTo.AreSuppliedTo_passes_two_dependencies_to_a_service" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                     </results>
                   </test-suite>
                   <test-suite type="TestFixture" name="Testing_Behaviour" executed="True" result="Success" success="True" time="0.009" asserts="0">
@@ -27,12 +27,12 @@
                       <test-case name="Jerky.Tests.Behaviour_Tests.Testing_Behaviour.With_A_Stack" executed="True" result="Success" success="True" time="0.008" asserts="1" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="Testing_Interactions" executed="True" result="Success" success="True" time="0.450" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_Interactions" executed="True" result="Success" success="True" time="0.493" asserts="0">
                     <results>
-                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_Interactions.GWT_syntax_can_be_used_to_verify_interaction_between_classes" executed="True" result="Success" success="True" time="0.449" asserts="0" />
+                      <test-case name="Jerky.Tests.Behaviour_Tests.Testing_Interactions.GWT_syntax_can_be_used_to_verify_interaction_between_classes" executed="True" result="Success" success="True" time="0.492" asserts="0" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="Testing_When_Step_First" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_When_Step_First" executed="True" result="Success" success="True" time="0.004" asserts="0">
                     <results>
                       <test-case name="Jerky.Tests.Behaviour_Tests.Testing_When_Step_First.Simple_usage_of_when_step_first" executed="True" result="Success" success="True" time="0.002" asserts="1" />
                       <test-case name="Jerky.Tests.Behaviour_Tests.Testing_When_Step_First.When_Step_first_with_argument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
@@ -40,20 +40,20 @@
                   </test-suite>
                 </results>
               </test-suite>
-              <test-suite type="Namespace" name="ExceptionBehaviour_Tests" executed="True" result="Success" success="True" time="0.024" asserts="0">
+              <test-suite type="Namespace" name="ExceptionBehaviour_Tests" executed="True" result="Success" success="True" time="0.023" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="Testing_Exception_Capture" executed="True" result="Success" success="True" time="0.018" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_Exception_Capture" executed="True" result="Success" success="True" time="0.019" asserts="0">
                     <results>
-                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.Can_Check_both_Exception_type_and_exception_message" executed="True" result="Success" success="True" time="0.010" asserts="4" />
-                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.Using_AreSuppliedTo_Step_and_Capturing_Exception_Message" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.Can_Check_both_Exception_type_and_exception_message" executed="True" result="Success" success="True" time="0.011" asserts="4" />
+                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.Using_AreSuppliedTo_Step_and_Capturing_Exception_Message" executed="True" result="Success" success="True" time="0.004" asserts="2" />
                       <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.Using_IsSupplied_To_Step_and_simple_exception_type_verification" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                       <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Capture.With_When_step_first_and_simple_exception_type_verification" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="Testing_Exception_Wrapping" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                  <test-suite type="TestFixture" name="Testing_Exception_Wrapping" executed="True" result="Success" success="True" time="0.003" asserts="0">
                     <results>
                       <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Wrapping.Can_capture_type_of_both_inner_and_outer_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="0" />
-                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Wrapping.Can_capture_wrapped_exception_with_message" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                      <test-case name="Jerky.Tests.ExceptionBehaviour_Tests.Testing_Exception_Wrapping.Can_capture_wrapped_exception_with_message" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                     </results>
                   </test-suite>
                 </results>

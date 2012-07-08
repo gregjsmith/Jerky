@@ -17,7 +17,7 @@
   </Target>
 
   <Target Name="UnitTests">
-    <Exec Command="$(MSBuildProjectDirectory)\Tools\Nunit\bin\Nunit-console.exe %(TestAssemblies.FullPath)"/>
+    <Exec Command="$(MSBuildProjectDirectory)\Tools\Nunit\Nunit-console.exe %(TestAssemblies.FullPath)"/>
   </Target>
   
 </Project>
