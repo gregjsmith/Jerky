@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{13D898D6-8C7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jerky", "App\Jerky\Jerky.csproj", "{513BBFAA-DC44-458D-9CDF-2C8750916724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jerky.Console", "Tests\Jerky.Console\Jerky.Console.csproj", "{AB577D63-87C7-4ADB-B78B-53557E64EC4B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,22 +27,11 @@ Global
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|x86.ActiveCfg = Release|Any CPU
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Debug|x86.ActiveCfg = Debug|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Debug|x86.Build.0 = Debug|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Release|Any CPU.ActiveCfg = Release|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Release|Mixed Platforms.Build.0 = Release|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Release|x86.ActiveCfg = Release|x86
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{513BBFAA-DC44-458D-9CDF-2C8750916724} = {13D898D6-8C71-4EC9-86C1-EEB3F4139397}
-		{AB577D63-87C7-4ADB-B78B-53557E64EC4B} = {561E2DE0-1FAA-471C-890B-82F8D00120F8}
 	EndGlobalSection
 EndGlobal
