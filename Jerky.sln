@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{13D898D6-8C7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jerky", "App\Jerky\Jerky.csproj", "{513BBFAA-DC44-458D-9CDF-2C8750916724}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jerky.Tests", "Tests\Jerky.Tests\Jerky.Tests.csproj", "{17CBB188-BB88-4E43-9225-E7EFCD56EF96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,22 @@ Global
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{513BBFAA-DC44-458D-9CDF-2C8750916724}.Release|x86.ActiveCfg = Release|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{513BBFAA-DC44-458D-9CDF-2C8750916724} = {13D898D6-8C71-4EC9-86C1-EEB3F4139397}
+		{17CBB188-BB88-4E43-9225-E7EFCD56EF96} = {561E2DE0-1FAA-471C-890B-82F8D00120F8}
 	EndGlobalSection
 EndGlobal
