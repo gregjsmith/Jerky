@@ -45,7 +45,7 @@ to be implemented as required
 
         public void Something_verifiable_will_be_the_result()
         {
-            _result.Bar.ShouldEqual("Yadda Yadda");
+            Assert.AreEqual("Yadda Yadda" _result.Bar);            
         }
 
         private SomeThing _context;
@@ -55,7 +55,7 @@ to be implemented as required
     public class You_can_add_some_flexibility
     {
         [Test]
-        public void By_passing_along_some_parameters()
+        public void By_passing_along_some_arguments()
         {
             new Behaviour()
                 .Given(A, new Stack<string>())
@@ -89,7 +89,7 @@ to be implemented as required
 
         public void The_count_of_elements_in_the_stack_will_be(int obj)
         {
-            _stack.Count().ShouldEqual(obj);
+            Asert.That(_stack.Count,Is.EqualTo(2));        
         }
 
         private Stack<string> _stack;
@@ -113,7 +113,7 @@ to be implemented as required
 
         public void The_account_balance_will_be(int obj)
         {
-            _account.GetBalance().ShouldEqual(obj);
+            Assert.That(_account.GetBalance(),Is.EqualTo(obj));            
         }
 
         private Account _account;
@@ -127,7 +127,7 @@ in a clean way - no try catch blocks
     
     public class Design_for_exceptions
     {
-		[Test]
+	[Test]
         public void Using_the_ExceptionBehaviour_syntax()
         {
             new ExceptionBehaviour()
