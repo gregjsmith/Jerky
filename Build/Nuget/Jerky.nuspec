@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Jerky</id>
+    <version>0.0.1</version>
+    <authors>Greg Smith</authors>
+    <owners>Greg Smith</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A lightweight testing DSL for C#, providing Given When Then syntax for unit tests</description>
+    <releaseNotes>Initial Development Version</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>bdd tdd c#</tags>
+    <dependencies>
+      <dependency id="NUnit" version="2.6.0.12054" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\App\Jerky\bin\Release\Jerky.dll" target="lib" />
+    <file src="..\..\README.markdown" />
+  </files>
+</package>

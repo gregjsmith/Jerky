@@ -3,7 +3,6 @@ using NUnit.Framework;
 
 namespace Jerky
 {
-    //TODO method count on this class is getting silly - find a better way
     public class Context
     {
         #region AndGiven

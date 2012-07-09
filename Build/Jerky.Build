@@ -3,6 +3,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <TestRoot>$(MSBuildProjectDirectory)\..\Tests\</TestRoot>
+    <NuGetDir>$(MSBuildProjectDirectory)\Nuget</NuGetDir>
+    <Version Condition=" '$(Version)' == ''">0.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,8 +18,13 @@
              Properties="Configuration=$(Configuration)" />
   </Target>
 
-  <Target Name="UnitTests">
+  <Target Name="UnitTests" DependsOnTargets="Build">
     <Exec Command="$(MSBuildProjectDirectory)\Tools\Nunit\Nunit-console.exe %(TestAssemblies.FullPath)"/>
+  </Target>
+
+  <Target Name="Publish" DependsOnTargets="Build">
+    <Exec Command="$(NuGetDir)\Nuget.exe pack $(NuGetDir)\jerky.nuspec -version $(Version) -properties Configuration=$(Configuration) -OutputDirectory $(NuGetDir)" />
+   <Exec Command="$(NuGetDir)\Nuget.exe push $(NuGetDir)\jerky.$(Version).nupkg 3415e01c-5653-48d4-bd89-5009858beafb" />
   </Target>
   
 </Project>
