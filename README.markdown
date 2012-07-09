@@ -127,7 +127,7 @@ in a clean way - no try catch blocks
     
     public class Design_for_exceptions
     {
-	[Test]
+		[Test]
         public void Using_the_ExceptionBehaviour_syntax()
         {
             new ExceptionBehaviour()
