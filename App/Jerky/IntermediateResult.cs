@@ -35,7 +35,6 @@ namespace Jerky
             return new IntermediateResult();
         }
 
-
         public Result Then(Action action)
         {
             try
@@ -108,9 +107,17 @@ namespace Jerky
         }
 
 
-        public void Then(bool predicate)
+        public Result Then(bool predicate)
         {
             Assert.IsTrue(predicate);
+            return new Result();
         }
+
+        public Result AndThen(bool predicate)
+        {
+            Assert.IsTrue(predicate);
+            return new Result();
+        }
+
     }
 }

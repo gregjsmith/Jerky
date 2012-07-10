@@ -76,5 +76,11 @@ namespace Jerky
 
             return new Result();
         }
+
+        public Result AndThen(bool predicate)
+        {
+            Assert.IsTrue(predicate);
+            return new Result();
+        }
     }
 }

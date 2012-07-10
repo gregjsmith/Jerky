@@ -9,6 +9,7 @@ namespace Jerky.Tests.Behaviour_Tests
         private string _stringTwo;
         private string _stringOne;
         private string _tempString;
+        private bool _bool;
 
         [Test]
         public void Calling_AndThen_Once_Gives_Expected_Results()
@@ -20,6 +21,17 @@ namespace Jerky.Tests.Behaviour_Tests
                 .Then(The_first_string_will_still_be, "Baby Jesus")
                 .AndThen(The_second_string_will_be, "suseJ ybaB");
         }
+
+
+        [Test]
+        public void Passing_a_boolean_expression_to_AndThen()
+        {
+            new Behaviour()
+                .When(() => _bool = 1 == 2)
+                .Then(_bool == false)
+                .AndThen(_bool == false);
+        }
+
 
         private void A_string_of(string obj)
         {
