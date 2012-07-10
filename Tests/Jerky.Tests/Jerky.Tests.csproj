@@ -39,6 +39,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviour_Tests\Testing_Given.cs" />
+    <Compile Include="TestObjects\Baloon.cs" />
     <Compile Include="TestObjects\StringCuddler.cs" />
     <Compile Include="Behaviour_Tests\Testing_AndThen.cs" />
     <Compile Include="Behaviour_Tests\Testing_AreSuppliedTo.cs" />

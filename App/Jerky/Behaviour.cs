@@ -51,5 +51,10 @@ namespace Jerky
             action.Invoke(arg1, arg2, arg3);
             return new IntermediateResult();
         }
+
+        public AdvancedContext Given<T>(T actor)
+        {
+            return new AdvancedContext();
+        }
     }
 }
