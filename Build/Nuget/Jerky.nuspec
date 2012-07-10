@@ -5,6 +5,7 @@
     <version>0.0.1</version>
     <authors>Greg Smith</authors>
     <owners>Greg Smith</owners>
+	<projectUrl>https://github.com/gregjsmith/Jerky</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A lightweight testing DSL for C#, providing Given When Then syntax for unit tests</description>
     <releaseNotes>Initial Development Version</releaseNotes>
