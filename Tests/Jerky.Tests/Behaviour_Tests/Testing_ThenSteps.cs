@@ -6,10 +6,7 @@ namespace Jerky.Tests.Behaviour_Tests
 // ReSharper disable InconsistentNaming
     public class Testing_ThenSteps
     {
-        private string _stringTwo;
-        private string _stringOne;
-        private string _tempString;
-        private bool _bool;
+       
 
         [Test]
         public void Calling_AndThen_Once_Gives_Expected_Results()
@@ -58,6 +55,12 @@ namespace Jerky.Tests.Behaviour_Tests
         {
             Assert.AreEqual(_stringTwo, obj);
         }
+
+        private string _stringTwo;
+        private string _stringOne;
+        private string _tempString;
+        private bool _bool;
+
     }
 }
 // ReSharper restore InconsistentNaming

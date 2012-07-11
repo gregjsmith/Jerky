@@ -23,7 +23,8 @@ namespace Jerky.Tests.Behaviour_Tests
         {
             new Behaviour()
                 .Given(_air = new Air(), _baloon = new Baloon(_air))
-                .Then(_baloon.State == Baloon.InflationState.Inflated);
+                .Then(_baloon.State == Baloon.InflationState.Inflated)
+                ;
         }
 
 

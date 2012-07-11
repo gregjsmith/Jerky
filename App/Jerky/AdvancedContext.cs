@@ -29,10 +29,10 @@ namespace Jerky
             return new IntermediateResult();
         }
 
-        public IntermediateResult Then(bool predicate)
+        public Result Then(bool predicate)
         {
             Assert.IsTrue(predicate);
-            return new IntermediateResult();
+            return new Result();
         }
 
         public AdvancedContext AndGiven<T>(T arg)
