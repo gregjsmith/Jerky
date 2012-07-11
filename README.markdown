@@ -118,6 +118,22 @@ to be implemented as required
 
         private Account _account;
     }
+    
+    
+    public class If_you_dont_like_private_methods
+    {
+    	[Test]
+    	public void Use_a_more_explicit_approach()
+    	{
+    	    new Behaviour()
+    	    	.Given(_air = new Air())
+    	    	.AndGiven(_baloon = new Baloon(_air))
+    	    	.Then(_baloon.State == BaloonState.Inflated);
+    	}
+    	
+    	private Baloon _baloon;
+    	private Air _air;
+    }
 
     
 Jerky also exposes an ExceptionBehaviour 
