@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="Behaviour_Tests\Testing_AndGiven.cs" />
     <Compile Include="TestObjects\AlreadyInflatedException.cs" />
-    <Compile Include="ExceptionBehaviour_Tests\Class1.cs" />
+    <Compile Include="ExceptionBehaviour_Tests\Testing_Given_and_AndGiven.cs" />
     <Compile Include="TestObjects\Air.cs" />
     <Compile Include="Behaviour_Tests\Testing_Given.cs" />
     <Compile Include="TestObjects\Baloon.cs" />
