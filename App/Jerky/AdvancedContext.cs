@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework;
 
 namespace Jerky
 {
@@ -27,5 +28,27 @@ namespace Jerky
             action.Invoke(arg1, arg2, arg3);
             return new IntermediateResult();
         }
+
+        public IntermediateResult Then(bool predicate)
+        {
+            Assert.IsTrue(predicate);
+            return new IntermediateResult();
+        }
+
+        public AdvancedContext AndGiven<T>(T arg)
+        {
+            return new AdvancedContext();
+        }
+
+        public AdvancedContext AndGiven<T1, T2>(T1 arg1, T2 arg2)
+        {
+            return  new AdvancedContext();
+        }
+
+        public AdvancedContext AndGiven<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
+        {
+            return new AdvancedContext();
+        }
+
     }
 }

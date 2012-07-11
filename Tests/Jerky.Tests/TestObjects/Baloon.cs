@@ -1,10 +1,26 @@
+using Jerky.Tests.Behaviour_Tests;
+
 namespace Jerky.Tests.TestObjects
 {
     public class Baloon
     {
+        public Baloon(Air air)
+        {
+            if (air != null)
+            {
+                State = InflationState.Inflated;
+            }
+            
+        }
+
+        public Baloon()
+        {
+            
+        }
         public enum InflationState
         {
-            Popped
+            Popped,
+            Inflated
         }
 
         public void Pop()

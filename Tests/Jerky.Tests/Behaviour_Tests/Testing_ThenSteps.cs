@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Jerky.Tests.Behaviour_Tests
 {
 // ReSharper disable InconsistentNaming
-    public class Testing_AndThen
+    public class Testing_ThenSteps
     {
         private string _stringTwo;
         private string _stringOne;
@@ -21,7 +21,6 @@ namespace Jerky.Tests.Behaviour_Tests
                 .Then(The_first_string_will_still_be, "Baby Jesus")
                 .AndThen(The_second_string_will_be, "suseJ ybaB");
         }
-
 
         [Test]
         public void Passing_a_boolean_expression_to_AndThen()
