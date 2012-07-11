@@ -28,6 +28,24 @@ namespace Jerky
             return new ExceptionContext();
         }
 
+
+
+        public ExceptionContext Given<T>(T arg)
+        {
+            return new ExceptionContext();
+        }
+
+        public ExceptionContext Given<T1, T2>(T1 arg1, T2 arg2)
+        {
+            return new ExceptionContext();
+        }
+
+
+        public ExceptionContext Given<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
+        {
+            return new ExceptionContext();
+        }
+
         #region When
 
         public IntermediateExceptionResult When(Action action)

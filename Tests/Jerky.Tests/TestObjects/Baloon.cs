@@ -29,5 +29,13 @@ namespace Jerky.Tests.TestObjects
         }
 
         public InflationState State { get; set; }
+
+        public void Inflate()
+        {
+            if (State == InflationState.Inflated)
+            {
+                throw new AlreadyInflatedException("The baloon is already inflated");
+            }
+        }
     }
 }

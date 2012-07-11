@@ -208,7 +208,22 @@ namespace Jerky
         }
 
         #endregion
-        
+
+        public ExceptionContext AndGiven<T>(T arg)
+        {
+            return new ExceptionContext();
+        }
+
+        public ExceptionContext AndGiven<T1, T2, T3>(T1 arg, T2 arg2, T3 arg3)
+        {
+            return new ExceptionContext();
+        }
+
+        public ExceptionContext AndGiven<T1, T2>(T1 arg, T2 arg2)
+        {
+            return new ExceptionContext();
+        }
+
 
     }
 }
