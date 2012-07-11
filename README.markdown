@@ -197,3 +197,21 @@ in a clean way - no try catch blocks
         }
     }
     
+    public class As_before
+    {
+        [Test]
+        public void Use_an_explicit_approach_if_preferred()
+        {
+            new ExceptionBehaviour()
+                .Given(_air = new Air())
+                .AndGiven(_baloon = new Baloon(_air))
+                .When(() => _baloon.Inflate())
+                .AnExceptionOfType(typeof(AlreadyInflatedException))
+                .IsThrownWithMessage("The baloon is already inflated");
+        }
+
+        private Air _air;
+        private Baloon _baloon;
+    }
+    
+    
